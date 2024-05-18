@@ -12,13 +12,6 @@ setHeadlessWhen(process.env.HEADLESS);
 // enable all common plugins https://github.com/codeceptjs/configure#setcommonplugins
 setCommonPlugins();
 
-const openai = new OpenAI({
-  apiKey: 'sk-proj-qiJtgC3U6nRM1RMVE4S6T3BlbkFJpqoFNLxcD6XJua0MfBJy'
-});
-
-const groq = new Groq({
-   apiKey: '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'
-});
 
 require('./heal');
 
